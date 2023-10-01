@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25cd255f-52d1-4303-9d14-4921fb8925d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3Opcional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/CrearArbolDOMEjemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/EjemploUsoXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/LeerConSax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/LeerXMLconDOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/ModificarDOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WAS9y8nh97KrYpFsmMCgG9KYJj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos" />
+      <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos\.idea" />
+      <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos\src" />
+      <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos\target" />
+      <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos\target\generated-sources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Actividad3Opcional">
+    <configuration name="Actividad3Opcional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.Actividad3Opcional" />
+      <module name="EjerciciosAccesoDatos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unidad1parte3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrearArbolDOMEjemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.CrearArbolDOMEjemplo" />
+      <module name="EjerciciosAccesoDatos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unidad1parte3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploUsoXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.EjemploUsoXpath" />
+      <module name="EjerciciosAccesoDatos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unidad1parte3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModificarDOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.ModificarDOM" />
+      <module name="EjerciciosAccesoDatos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unidad1parte3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Actividad3Opcional" />
+        <item itemvalue="Application.ModificarDOM" />
+        <item itemvalue="Application.EjemploUsoXpath" />
+        <item itemvalue="Application.CrearArbolDOMEjemplo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25cd255f-52d1-4303-9d14-4921fb8925d0" name="Changes" comment="" />
+      <created>1696173747581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696173747581</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
