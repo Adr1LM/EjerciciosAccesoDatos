@@ -1,0 +1,16 @@
+<Libreria>
+    <listaLibro>
+        <listaLibro>
+            <titulo>La niebla</titulo>
+            <autor>S. King</autor>
+            <serie>0</serie>
+        </listaLibro>
+        <listaLibro>
+            <titulo>Hamlet</titulo>
+            <autor>W. Shakespeare</autor>
+            <serie>0</serie>
+        </listaLibro>
+    </listaLibro>
+    <nombre>Mi Librería</nombre>
+    <lugar>Valencia</lugar>
+</Libreria>
