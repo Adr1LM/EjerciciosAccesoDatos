@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<pelis>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><pelis>
     <peli>
         <titulo>Una nueva esperanza</titulo>
         <ano>1977</ano>
@@ -10,7 +9,7 @@
         <titulo>El imperio contraataca</titulo>
         <ano>1980</ano>
         <duracion>140</duracion>
-        <actor>Mark Hamil</actor>
+        <actor>Adrian Lujan</actor>
     </peli>
     <peli>
         <titulo>El retorno del Jedi</titulo>

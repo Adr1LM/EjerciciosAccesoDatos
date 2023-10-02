@@ -1,17 +1,23 @@
 package Unidad1parte3;
 
-import org.w3c.dom.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Result;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 
-public class Actividad3Opcional {
+/*
+ *
+ * BUSCAR ELEMENTOS FILTRANDO Y MOSTRARLOS
+ *
+ *
+ *  */
+
+
+public class Actividad3OpcionalC {
     public static void main(String[] args) {
 
         try {
@@ -28,28 +34,32 @@ public class Actividad3Opcional {
                 if (peli.getNodeType() == Node.ELEMENT_NODE) {
                     Element elemento = (Element) peli; //Obtenemos los elemento del nodo
                     if (peli.getNodeType() == Node.ELEMENT_NODE) {
-                        System.out.println("titulo: " + getNodo("titulo", elemento));
-                        System.out.println("Año: " + getNodo("ano", elemento));
-                        System.out.println("Duración: " + getNodo("duracion", elemento));
-                        System.out.println("Actor: " + getNodo("actor", elemento));
+
+                        if (Integer.parseInt(getNodo("duracion", elemento)) > 120) {
+                            System.out.println("titulo: " + getNodo("titulo", elemento));
+                            System.out.println("Año: " + getNodo("ano", elemento));
+                            System.out.println("Duración: " + getNodo("duracion", elemento));
+                            System.out.println("Actor: " + getNodo("actor", elemento));
+                        }
                     }
                 }
-            }
-
-
-            } catch(Exception e){
-                System.err.println("Error: " + e);
 
 
             }
+        } catch (Exception e) {
+            System.err.println("Error: " + e);
+
+
         }
+
+    }
 
     private static String getNodo(String etiqueta, Element elem) {
         NodeList nodo = elem.getElementsByTagName(etiqueta).item(0).getChildNodes();
         Node valorNodo = (Node) nodo.item(0);
         return valorNodo.getNodeValue();
     }
-    }
+}
 
 
 

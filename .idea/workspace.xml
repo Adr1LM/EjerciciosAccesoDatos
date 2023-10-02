@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd255f-52d1-4303-9d14-4921fb8925d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3Opcional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/CrearArbolDOMEjemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/EjemploUsoXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/LeerConSax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/LeerXMLconDOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/ModificarDOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="25cd255f-52d1-4303-9d14-4921fb8925d0" name="Changes" comment="Primer intento. Tema 1.3 XML y DOM">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3OpcionalB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3OpcionalC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3OpcionalD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pelis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3Opcional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Unidad1parte3/Actividad3OpcionalA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +38,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos" />
@@ -63,9 +54,9 @@
       <recent name="C:\Users\adria\Documents\NetBeansProjects\EjerciciosAccesoDatos\target\generated-sources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Actividad3Opcional">
-    <configuration name="Actividad3Opcional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.Actividad3Opcional" />
+  <component name="RunManager" selected="Application.Actividad3OpcionalD">
+    <configuration name="Actividad3OpcionalA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.Actividad3OpcionalA" />
       <module name="EjerciciosAccesoDatos" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearArbolDOMEjemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.CrearArbolDOMEjemplo" />
+    <configuration name="Actividad3OpcionalB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.Actividad3OpcionalB" />
       <module name="EjerciciosAccesoDatos" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploUsoXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.EjemploUsoXpath" />
+    <configuration name="Actividad3OpcionalC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.Actividad3OpcionalC" />
+      <module name="EjerciciosAccesoDatos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unidad1parte3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Actividad3OpcionalD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad1parte3.Actividad3OpcionalD" />
       <module name="EjerciciosAccesoDatos" />
       <extension name="coverage">
         <pattern>
@@ -118,10 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Actividad3Opcional" />
+        <item itemvalue="Application.Actividad3OpcionalD" />
+        <item itemvalue="Application.Actividad3OpcionalC" />
+        <item itemvalue="Application.Actividad3OpcionalA" />
+        <item itemvalue="Application.Actividad3OpcionalB" />
         <item itemvalue="Application.ModificarDOM" />
-        <item itemvalue="Application.EjemploUsoXpath" />
-        <item itemvalue="Application.CrearArbolDOMEjemplo" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1696173747581</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primer intento. Tema 1.3 XML y DOM">
+      <created>1696187305553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696187305553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,5 +159,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer intento. Tema 1.3 XML y DOM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer intento. Tema 1.3 XML y DOM" />
   </component>
 </project>
